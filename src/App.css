@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size: 13px;
+}
+.mainNav{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  top:0;
+  position: sticky;
+  background-color: white;
+  opacity: 80%;
+}
+.secNav{
+  display: flex;
+  flex-direction: row;
+  margin-right: 18px;
+}
+.sider span:hover{
+  background-color: #e0e6f2;
+  color: black;
+  cursor: pointer;
+}
+.sider span{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+ align-items: center; 
+}
+.sticky{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+}
+.diff p:hover{
+  color: black;
+  background: white;
+  padding: 4px;
+  border-radius: 2px;
+}
+.vl{
+  border-left: 2px solid skyblue;
+}
+.module{
+  margin: 0 auto;
+}
